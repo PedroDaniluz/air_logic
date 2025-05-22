@@ -1,0 +1,2594 @@
+[
+  {
+    "id": 1,
+    "sensorId": 1,
+    "value": 3.46,
+    "timestamp": "2025-05-20T00:00:00"
+  },
+  {
+    "id": 2,
+    "sensorId": 1,
+    "value": 3.35,
+    "timestamp": "2025-05-20T00:10:00"
+  },
+  {
+    "id": 3,
+    "sensorId": 1,
+    "value": 2.86,
+    "timestamp": "2025-05-20T00:20:00"
+  },
+  {
+    "id": 4,
+    "sensorId": 1,
+    "value": 3.24,
+    "timestamp": "2025-05-20T00:30:00"
+  },
+  {
+    "id": 5,
+    "sensorId": 1,
+    "value": 3.49,
+    "timestamp": "2025-05-20T00:40:00"
+  },
+  {
+    "id": 6,
+    "sensorId": 1,
+    "value": 2.87,
+    "timestamp": "2025-05-20T00:50:00"
+  },
+  {
+    "id": 7,
+    "sensorId": 1,
+    "value": 3.34,
+    "timestamp": "2025-05-20T01:00:00"
+  },
+  {
+    "id": 8,
+    "sensorId": 1,
+    "value": 3.31,
+    "timestamp": "2025-05-20T01:10:00"
+  },
+  {
+    "id": 9,
+    "sensorId": 1,
+    "value": 3.46,
+    "timestamp": "2025-05-20T01:20:00"
+  },
+  {
+    "id": 10,
+    "sensorId": 1,
+    "value": 3.43,
+    "timestamp": "2025-05-20T01:30:00"
+  },
+  {
+    "id": 11,
+    "sensorId": 1,
+    "value": 2.96,
+    "timestamp": "2025-05-20T01:40:00"
+  },
+  {
+    "id": 12,
+    "sensorId": 1,
+    "value": 3.01,
+    "timestamp": "2025-05-20T01:50:00"
+  },
+  {
+    "id": 13,
+    "sensorId": 1,
+    "value": 3.1,
+    "timestamp": "2025-05-20T02:00:00"
+  },
+  {
+    "id": 14,
+    "sensorId": 1,
+    "value": 2.85,
+    "timestamp": "2025-05-20T02:10:00"
+  },
+  {
+    "id": 15,
+    "sensorId": 1,
+    "value": 3.45,
+    "timestamp": "2025-05-20T02:20:00"
+  },
+  {
+    "id": 16,
+    "sensorId": 1,
+    "value": 2.82,
+    "timestamp": "2025-05-20T02:30:00"
+  },
+  {
+    "id": 17,
+    "sensorId": 1,
+    "value": 2.94,
+    "timestamp": "2025-05-20T02:40:00"
+  },
+  {
+    "id": 18,
+    "sensorId": 1,
+    "value": 3.19,
+    "timestamp": "2025-05-20T02:50:00"
+  },
+  {
+    "id": 19,
+    "sensorId": 1,
+    "value": 3.06,
+    "timestamp": "2025-05-20T03:00:00"
+  },
+  {
+    "id": 20,
+    "sensorId": 1,
+    "value": 3.35,
+    "timestamp": "2025-05-20T03:10:00"
+  },
+  {
+    "id": 21,
+    "sensorId": 1,
+    "value": 3.29,
+    "timestamp": "2025-05-20T03:20:00"
+  },
+  {
+    "id": 22,
+    "sensorId": 1,
+    "value": 2.89,
+    "timestamp": "2025-05-20T03:30:00"
+  },
+  {
+    "id": 23,
+    "sensorId": 1,
+    "value": 3.16,
+    "timestamp": "2025-05-20T03:40:00"
+  },
+  {
+    "id": 24,
+    "sensorId": 1,
+    "value": 3.21,
+    "timestamp": "2025-05-20T03:50:00"
+  },
+  {
+    "id": 25,
+    "sensorId": 1,
+    "value": 2.91,
+    "timestamp": "2025-05-20T04:00:00"
+  },
+  {
+    "id": 26,
+    "sensorId": 1,
+    "value": 2.81,
+    "timestamp": "2025-05-20T04:10:00"
+  },
+  {
+    "id": 27,
+    "sensorId": 1,
+    "value": 2.89,
+    "timestamp": "2025-05-20T04:20:00"
+  },
+  {
+    "id": 28,
+    "sensorId": 1,
+    "value": 3.19,
+    "timestamp": "2025-05-20T04:30:00"
+  },
+  {
+    "id": 29,
+    "sensorId": 1,
+    "value": 2.87,
+    "timestamp": "2025-05-20T04:40:00"
+  },
+  {
+    "id": 30,
+    "sensorId": 1,
+    "value": 3.47,
+    "timestamp": "2025-05-20T04:50:00"
+  },
+  {
+    "id": 31,
+    "sensorId": 1,
+    "value": 2.83,
+    "timestamp": "2025-05-20T05:00:00"
+  },
+  {
+    "id": 32,
+    "sensorId": 1,
+    "value": 3.06,
+    "timestamp": "2025-05-20T05:10:00"
+  },
+  {
+    "id": 33,
+    "sensorId": 1,
+    "value": 2.82,
+    "timestamp": "2025-05-20T05:20:00"
+  },
+  {
+    "id": 34,
+    "sensorId": 1,
+    "value": 2.95,
+    "timestamp": "2025-05-20T05:30:00"
+  },
+  {
+    "id": 35,
+    "sensorId": 1,
+    "value": 2.92,
+    "timestamp": "2025-05-20T05:40:00"
+  },
+  {
+    "id": 36,
+    "sensorId": 1,
+    "value": 2.96,
+    "timestamp": "2025-05-20T05:50:00"
+  },
+  {
+    "id": 37,
+    "sensorId": 1,
+    "value": 2.85,
+    "timestamp": "2025-05-20T06:00:00"
+  },
+  {
+    "id": 38,
+    "sensorId": 1,
+    "value": 3.1,
+    "timestamp": "2025-05-20T06:10:00"
+  },
+  {
+    "id": 39,
+    "sensorId": 1,
+    "value": 2.92,
+    "timestamp": "2025-05-20T06:20:00"
+  },
+  {
+    "id": 40,
+    "sensorId": 1,
+    "value": 3.49,
+    "timestamp": "2025-05-20T06:30:00"
+  },
+  {
+    "id": 41,
+    "sensorId": 1,
+    "value": 3.44,
+    "timestamp": "2025-05-20T06:40:00"
+  },
+  {
+    "id": 42,
+    "sensorId": 1,
+    "value": 3.42,
+    "timestamp": "2025-05-20T06:50:00"
+  },
+  {
+    "id": 43,
+    "sensorId": 1,
+    "value": 3.11,
+    "timestamp": "2025-05-20T07:00:00"
+  },
+  {
+    "id": 44,
+    "sensorId": 1,
+    "value": 3.16,
+    "timestamp": "2025-05-20T07:10:00"
+  },
+  {
+    "id": 45,
+    "sensorId": 1,
+    "value": 3.41,
+    "timestamp": "2025-05-20T07:20:00"
+  },
+  {
+    "id": 46,
+    "sensorId": 1,
+    "value": 2.81,
+    "timestamp": "2025-05-20T07:30:00"
+  },
+  {
+    "id": 47,
+    "sensorId": 1,
+    "value": 3.41,
+    "timestamp": "2025-05-20T07:40:00"
+  },
+  {
+    "id": 48,
+    "sensorId": 1,
+    "value": 2.88,
+    "timestamp": "2025-05-20T07:50:00"
+  },
+  {
+    "id": 49,
+    "sensorId": 1,
+    "value": 3.21,
+    "timestamp": "2025-05-20T08:00:00"
+  },
+  {
+    "id": 50,
+    "sensorId": 1,
+    "value": 3.02,
+    "timestamp": "2025-05-20T08:10:00"
+  },
+  {
+    "id": 51,
+    "sensorId": 1,
+    "value": 3.1,
+    "timestamp": "2025-05-20T08:20:00"
+  },
+  {
+    "id": 52,
+    "sensorId": 1,
+    "value": 3.29,
+    "timestamp": "2025-05-20T08:30:00"
+  },
+  {
+    "id": 53,
+    "sensorId": 1,
+    "value": 3.09,
+    "timestamp": "2025-05-20T08:40:00"
+  },
+  {
+    "id": 54,
+    "sensorId": 1,
+    "value": 3.0,
+    "timestamp": "2025-05-20T08:50:00"
+  },
+  {
+    "id": 55,
+    "sensorId": 1,
+    "value": 3.48,
+    "timestamp": "2025-05-20T09:00:00"
+  },
+  {
+    "id": 56,
+    "sensorId": 1,
+    "value": 2.88,
+    "timestamp": "2025-05-20T09:10:00"
+  },
+  {
+    "id": 57,
+    "sensorId": 1,
+    "value": 3.31,
+    "timestamp": "2025-05-20T09:20:00"
+  },
+  {
+    "id": 58,
+    "sensorId": 1,
+    "value": 2.94,
+    "timestamp": "2025-05-20T09:30:00"
+  },
+  {
+    "id": 59,
+    "sensorId": 1,
+    "value": 3.38,
+    "timestamp": "2025-05-20T09:40:00"
+  },
+  {
+    "id": 60,
+    "sensorId": 1,
+    "value": 3.26,
+    "timestamp": "2025-05-20T09:50:00"
+  },
+  {
+    "id": 61,
+    "sensorId": 1,
+    "value": 3.16,
+    "timestamp": "2025-05-20T10:00:00"
+  },
+  {
+    "id": 62,
+    "sensorId": 1,
+    "value": 3.37,
+    "timestamp": "2025-05-20T10:10:00"
+  },
+  {
+    "id": 63,
+    "sensorId": 1,
+    "value": 3.36,
+    "timestamp": "2025-05-20T10:20:00"
+  },
+  {
+    "id": 64,
+    "sensorId": 1,
+    "value": 2.87,
+    "timestamp": "2025-05-20T10:30:00"
+  },
+  {
+    "id": 65,
+    "sensorId": 1,
+    "value": 3.19,
+    "timestamp": "2025-05-20T10:40:00"
+  },
+  {
+    "id": 66,
+    "sensorId": 1,
+    "value": 3.32,
+    "timestamp": "2025-05-20T10:50:00"
+  },
+  {
+    "id": 67,
+    "sensorId": 1,
+    "value": 3.2,
+    "timestamp": "2025-05-20T11:00:00"
+  },
+  {
+    "id": 68,
+    "sensorId": 1,
+    "value": 3.12,
+    "timestamp": "2025-05-20T11:10:00"
+  },
+  {
+    "id": 69,
+    "sensorId": 1,
+    "value": 2.84,
+    "timestamp": "2025-05-20T11:20:00"
+  },
+  {
+    "id": 70,
+    "sensorId": 1,
+    "value": 2.83,
+    "timestamp": "2025-05-20T11:30:00"
+  },
+  {
+    "id": 71,
+    "sensorId": 1,
+    "value": 3.29,
+    "timestamp": "2025-05-20T11:40:00"
+  },
+  {
+    "id": 72,
+    "sensorId": 1,
+    "value": 3.19,
+    "timestamp": "2025-05-20T11:50:00"
+  },
+  {
+    "id": 73,
+    "sensorId": 1,
+    "value": 2.8,
+    "timestamp": "2025-05-20T12:00:00"
+  },
+  {
+    "id": 74,
+    "sensorId": 1,
+    "value": 3.4,
+    "timestamp": "2025-05-20T12:10:00"
+  },
+  {
+    "id": 75,
+    "sensorId": 1,
+    "value": 2.91,
+    "timestamp": "2025-05-20T12:20:00"
+  },
+  {
+    "id": 76,
+    "sensorId": 1,
+    "value": 3.28,
+    "timestamp": "2025-05-20T12:30:00"
+  },
+  {
+    "id": 77,
+    "sensorId": 1,
+    "value": 3.44,
+    "timestamp": "2025-05-20T12:40:00"
+  },
+  {
+    "id": 78,
+    "sensorId": 1,
+    "value": 3.16,
+    "timestamp": "2025-05-20T12:50:00"
+  },
+  {
+    "id": 79,
+    "sensorId": 1,
+    "value": 3.38,
+    "timestamp": "2025-05-20T13:00:00"
+  },
+  {
+    "id": 80,
+    "sensorId": 1,
+    "value": 3.03,
+    "timestamp": "2025-05-20T13:10:00"
+  },
+  {
+    "id": 81,
+    "sensorId": 1,
+    "value": 3.02,
+    "timestamp": "2025-05-20T13:20:00"
+  },
+  {
+    "id": 82,
+    "sensorId": 1,
+    "value": 3.47,
+    "timestamp": "2025-05-20T13:30:00"
+  },
+  {
+    "id": 83,
+    "sensorId": 1,
+    "value": 3.0,
+    "timestamp": "2025-05-20T13:40:00"
+  },
+  {
+    "id": 84,
+    "sensorId": 1,
+    "value": 3.08,
+    "timestamp": "2025-05-20T13:50:00"
+  },
+  {
+    "id": 85,
+    "sensorId": 1,
+    "value": 3.43,
+    "timestamp": "2025-05-20T14:00:00"
+  },
+  {
+    "id": 86,
+    "sensorId": 1,
+    "value": 3.26,
+    "timestamp": "2025-05-20T14:10:00"
+  },
+  {
+    "id": 87,
+    "sensorId": 1,
+    "value": 3.02,
+    "timestamp": "2025-05-20T14:20:00"
+  },
+  {
+    "id": 88,
+    "sensorId": 1,
+    "value": 2.98,
+    "timestamp": "2025-05-20T14:30:00"
+  },
+  {
+    "id": 89,
+    "sensorId": 1,
+    "value": 2.95,
+    "timestamp": "2025-05-20T14:40:00"
+  },
+  {
+    "id": 90,
+    "sensorId": 1,
+    "value": 3.02,
+    "timestamp": "2025-05-20T14:50:00"
+  },
+  {
+    "id": 91,
+    "sensorId": 1,
+    "value": 3.49,
+    "timestamp": "2025-05-20T15:00:00"
+  },
+  {
+    "id": 92,
+    "sensorId": 1,
+    "value": 3.21,
+    "timestamp": "2025-05-20T15:10:00"
+  },
+  {
+    "id": 93,
+    "sensorId": 1,
+    "value": 3.34,
+    "timestamp": "2025-05-20T15:20:00"
+  },
+  {
+    "id": 94,
+    "sensorId": 1,
+    "value": 3.1,
+    "timestamp": "2025-05-20T15:30:00"
+  },
+  {
+    "id": 95,
+    "sensorId": 1,
+    "value": 3.01,
+    "timestamp": "2025-05-20T15:40:00"
+  },
+  {
+    "id": 96,
+    "sensorId": 1,
+    "value": 3.19,
+    "timestamp": "2025-05-20T15:50:00"
+  },
+  {
+    "id": 97,
+    "sensorId": 1,
+    "value": 3.29,
+    "timestamp": "2025-05-20T16:00:00"
+  },
+  {
+    "id": 98,
+    "sensorId": 1,
+    "value": 3.41,
+    "timestamp": "2025-05-20T16:10:00"
+  },
+  {
+    "id": 99,
+    "sensorId": 1,
+    "value": 3.1,
+    "timestamp": "2025-05-20T16:20:00"
+  },
+  {
+    "id": 100,
+    "sensorId": 1,
+    "value": 2.86,
+    "timestamp": "2025-05-20T16:30:00"
+  },
+  {
+    "id": 101,
+    "sensorId": 1,
+    "value": 3.23,
+    "timestamp": "2025-05-20T16:40:00"
+  },
+  {
+    "id": 102,
+    "sensorId": 1,
+    "value": 3.17,
+    "timestamp": "2025-05-20T16:50:00"
+  },
+  {
+    "id": 103,
+    "sensorId": 1,
+    "value": 2.95,
+    "timestamp": "2025-05-20T17:00:00"
+  },
+  {
+    "id": 104,
+    "sensorId": 1,
+    "value": 3.49,
+    "timestamp": "2025-05-20T17:10:00"
+  },
+  {
+    "id": 105,
+    "sensorId": 1,
+    "value": 2.82,
+    "timestamp": "2025-05-20T17:20:00"
+  },
+  {
+    "id": 106,
+    "sensorId": 1,
+    "value": 3.45,
+    "timestamp": "2025-05-20T17:30:00"
+  },
+  {
+    "id": 107,
+    "sensorId": 1,
+    "value": 3.25,
+    "timestamp": "2025-05-20T17:40:00"
+  },
+  {
+    "id": 108,
+    "sensorId": 1,
+    "value": 3.43,
+    "timestamp": "2025-05-20T17:50:00"
+  },
+  {
+    "id": 109,
+    "sensorId": 1,
+    "value": 3.3,
+    "timestamp": "2025-05-20T18:00:00"
+  },
+  {
+    "id": 110,
+    "sensorId": 1,
+    "value": 2.81,
+    "timestamp": "2025-05-20T18:10:00"
+  },
+  {
+    "id": 111,
+    "sensorId": 1,
+    "value": 3.18,
+    "timestamp": "2025-05-20T18:20:00"
+  },
+  {
+    "id": 112,
+    "sensorId": 1,
+    "value": 3.35,
+    "timestamp": "2025-05-20T18:30:00"
+  },
+  {
+    "id": 113,
+    "sensorId": 1,
+    "value": 3.0,
+    "timestamp": "2025-05-20T18:40:00"
+  },
+  {
+    "id": 114,
+    "sensorId": 1,
+    "value": 3.0,
+    "timestamp": "2025-05-20T18:50:00"
+  },
+  {
+    "id": 115,
+    "sensorId": 1,
+    "value": 3.27,
+    "timestamp": "2025-05-20T19:00:00"
+  },
+  {
+    "id": 116,
+    "sensorId": 1,
+    "value": 2.99,
+    "timestamp": "2025-05-20T19:10:00"
+  },
+  {
+    "id": 117,
+    "sensorId": 1,
+    "value": 3.38,
+    "timestamp": "2025-05-20T19:20:00"
+  },
+  {
+    "id": 118,
+    "sensorId": 1,
+    "value": 3.12,
+    "timestamp": "2025-05-20T19:30:00"
+  },
+  {
+    "id": 119,
+    "sensorId": 1,
+    "value": 3.23,
+    "timestamp": "2025-05-20T19:40:00"
+  },
+  {
+    "id": 120,
+    "sensorId": 1,
+    "value": 3.23,
+    "timestamp": "2025-05-20T19:50:00"
+  },
+  {
+    "id": 121,
+    "sensorId": 1,
+    "value": 3.3,
+    "timestamp": "2025-05-20T20:00:00"
+  },
+  {
+    "id": 122,
+    "sensorId": 1,
+    "value": 3.29,
+    "timestamp": "2025-05-20T20:10:00"
+  },
+  {
+    "id": 123,
+    "sensorId": 1,
+    "value": 3.43,
+    "timestamp": "2025-05-20T20:20:00"
+  },
+  {
+    "id": 124,
+    "sensorId": 1,
+    "value": 3.45,
+    "timestamp": "2025-05-20T20:30:00"
+  },
+  {
+    "id": 125,
+    "sensorId": 1,
+    "value": 2.82,
+    "timestamp": "2025-05-20T20:40:00"
+  },
+  {
+    "id": 126,
+    "sensorId": 1,
+    "value": 3.18,
+    "timestamp": "2025-05-20T20:50:00"
+  },
+  {
+    "id": 127,
+    "sensorId": 1,
+    "value": 3.26,
+    "timestamp": "2025-05-20T21:00:00"
+  },
+  {
+    "id": 128,
+    "sensorId": 1,
+    "value": 3.35,
+    "timestamp": "2025-05-20T21:10:00"
+  },
+  {
+    "id": 129,
+    "sensorId": 1,
+    "value": 2.97,
+    "timestamp": "2025-05-20T21:20:00"
+  },
+  {
+    "id": 130,
+    "sensorId": 1,
+    "value": 2.88,
+    "timestamp": "2025-05-20T21:30:00"
+  },
+  {
+    "id": 131,
+    "sensorId": 1,
+    "value": 2.9,
+    "timestamp": "2025-05-20T21:40:00"
+  },
+  {
+    "id": 132,
+    "sensorId": 1,
+    "value": 3.12,
+    "timestamp": "2025-05-20T21:50:00"
+  },
+  {
+    "id": 133,
+    "sensorId": 1,
+    "value": 2.84,
+    "timestamp": "2025-05-20T22:00:00"
+  },
+  {
+    "id": 134,
+    "sensorId": 1,
+    "value": 3.31,
+    "timestamp": "2025-05-20T22:10:00"
+  },
+  {
+    "id": 135,
+    "sensorId": 1,
+    "value": 3.0,
+    "timestamp": "2025-05-20T22:20:00"
+  },
+  {
+    "id": 136,
+    "sensorId": 1,
+    "value": 3.25,
+    "timestamp": "2025-05-20T22:30:00"
+  },
+  {
+    "id": 137,
+    "sensorId": 1,
+    "value": 3.48,
+    "timestamp": "2025-05-20T22:40:00"
+  },
+  {
+    "id": 138,
+    "sensorId": 1,
+    "value": 2.87,
+    "timestamp": "2025-05-20T22:50:00"
+  },
+  {
+    "id": 139,
+    "sensorId": 1,
+    "value": 3.35,
+    "timestamp": "2025-05-20T23:00:00"
+  },
+  {
+    "id": 140,
+    "sensorId": 1,
+    "value": 3.49,
+    "timestamp": "2025-05-20T23:10:00"
+  },
+  {
+    "id": 141,
+    "sensorId": 1,
+    "value": 3.33,
+    "timestamp": "2025-05-20T23:20:00"
+  },
+  {
+    "id": 142,
+    "sensorId": 1,
+    "value": 3.05,
+    "timestamp": "2025-05-20T23:30:00"
+  },
+  {
+    "id": 143,
+    "sensorId": 1,
+    "value": 2.93,
+    "timestamp": "2025-05-20T23:40:00"
+  },
+  {
+    "id": 144,
+    "sensorId": 1,
+    "value": 2.86,
+    "timestamp": "2025-05-20T23:50:00"
+  },
+  {
+    "id": 145,
+    "sensorId": 2,
+    "value": 3.33,
+    "timestamp": "2025-05-20T00:00:00"
+  },
+  {
+    "id": 146,
+    "sensorId": 2,
+    "value": 3.94,
+    "timestamp": "2025-05-20T00:10:00"
+  },
+  {
+    "id": 147,
+    "sensorId": 2,
+    "value": 3.24,
+    "timestamp": "2025-05-20T00:20:00"
+  },
+  {
+    "id": 148,
+    "sensorId": 2,
+    "value": 3.54,
+    "timestamp": "2025-05-20T00:30:00"
+  },
+  {
+    "id": 149,
+    "sensorId": 2,
+    "value": 3.84,
+    "timestamp": "2025-05-20T00:40:00"
+  },
+  {
+    "id": 150,
+    "sensorId": 2,
+    "value": 3.15,
+    "timestamp": "2025-05-20T00:50:00"
+  },
+  {
+    "id": 151,
+    "sensorId": 2,
+    "value": 3.96,
+    "timestamp": "2025-05-20T01:00:00"
+  },
+  {
+    "id": 152,
+    "sensorId": 2,
+    "value": 3.59,
+    "timestamp": "2025-05-20T01:10:00"
+  },
+  {
+    "id": 153,
+    "sensorId": 2,
+    "value": 3.78,
+    "timestamp": "2025-05-20T01:20:00"
+  },
+  {
+    "id": 154,
+    "sensorId": 2,
+    "value": 3.72,
+    "timestamp": "2025-05-20T01:30:00"
+  },
+  {
+    "id": 155,
+    "sensorId": 2,
+    "value": 3.07,
+    "timestamp": "2025-05-20T01:40:00"
+  },
+  {
+    "id": 156,
+    "sensorId": 2,
+    "value": 3.63,
+    "timestamp": "2025-05-20T01:50:00"
+  },
+  {
+    "id": 157,
+    "sensorId": 2,
+    "value": 3.59,
+    "timestamp": "2025-05-20T02:00:00"
+  },
+  {
+    "id": 158,
+    "sensorId": 2,
+    "value": 3.12,
+    "timestamp": "2025-05-20T02:10:00"
+  },
+  {
+    "id": 159,
+    "sensorId": 2,
+    "value": 3.37,
+    "timestamp": "2025-05-20T02:20:00"
+  },
+  {
+    "id": 160,
+    "sensorId": 2,
+    "value": 3.34,
+    "timestamp": "2025-05-20T02:30:00"
+  },
+  {
+    "id": 161,
+    "sensorId": 2,
+    "value": 3.61,
+    "timestamp": "2025-05-20T02:40:00"
+  },
+  {
+    "id": 162,
+    "sensorId": 2,
+    "value": 3.0,
+    "timestamp": "2025-05-20T02:50:00"
+  },
+  {
+    "id": 163,
+    "sensorId": 2,
+    "value": 3.11,
+    "timestamp": "2025-05-20T03:00:00"
+  },
+  {
+    "id": 164,
+    "sensorId": 2,
+    "value": 3.98,
+    "timestamp": "2025-05-20T03:10:00"
+  },
+  {
+    "id": 165,
+    "sensorId": 2,
+    "value": 3.86,
+    "timestamp": "2025-05-20T03:20:00"
+  },
+  {
+    "id": 166,
+    "sensorId": 2,
+    "value": 3.4,
+    "timestamp": "2025-05-20T03:30:00"
+  },
+  {
+    "id": 167,
+    "sensorId": 2,
+    "value": 3.28,
+    "timestamp": "2025-05-20T03:40:00"
+  },
+  {
+    "id": 168,
+    "sensorId": 2,
+    "value": 3.48,
+    "timestamp": "2025-05-20T03:50:00"
+  },
+  {
+    "id": 169,
+    "sensorId": 2,
+    "value": 3.37,
+    "timestamp": "2025-05-20T04:00:00"
+  },
+  {
+    "id": 170,
+    "sensorId": 2,
+    "value": 3.69,
+    "timestamp": "2025-05-20T04:10:00"
+  },
+  {
+    "id": 171,
+    "sensorId": 2,
+    "value": 3.03,
+    "timestamp": "2025-05-20T04:20:00"
+  },
+  {
+    "id": 172,
+    "sensorId": 2,
+    "value": 3.84,
+    "timestamp": "2025-05-20T04:30:00"
+  },
+  {
+    "id": 173,
+    "sensorId": 2,
+    "value": 3.29,
+    "timestamp": "2025-05-20T04:40:00"
+  },
+  {
+    "id": 174,
+    "sensorId": 2,
+    "value": 3.73,
+    "timestamp": "2025-05-20T04:50:00"
+  },
+  {
+    "id": 175,
+    "sensorId": 2,
+    "value": 3.32,
+    "timestamp": "2025-05-20T05:00:00"
+  },
+  {
+    "id": 176,
+    "sensorId": 2,
+    "value": 3.89,
+    "timestamp": "2025-05-20T05:10:00"
+  },
+  {
+    "id": 177,
+    "sensorId": 2,
+    "value": 3.13,
+    "timestamp": "2025-05-20T05:20:00"
+  },
+  {
+    "id": 178,
+    "sensorId": 2,
+    "value": 3.14,
+    "timestamp": "2025-05-20T05:30:00"
+  },
+  {
+    "id": 179,
+    "sensorId": 2,
+    "value": 3.98,
+    "timestamp": "2025-05-20T05:40:00"
+  },
+  {
+    "id": 180,
+    "sensorId": 2,
+    "value": 3.46,
+    "timestamp": "2025-05-20T05:50:00"
+  },
+  {
+    "id": 181,
+    "sensorId": 2,
+    "value": 3.61,
+    "timestamp": "2025-05-20T06:00:00"
+  },
+  {
+    "id": 182,
+    "sensorId": 2,
+    "value": 3.57,
+    "timestamp": "2025-05-20T06:10:00"
+  },
+  {
+    "id": 183,
+    "sensorId": 2,
+    "value": 3.03,
+    "timestamp": "2025-05-20T06:20:00"
+  },
+  {
+    "id": 184,
+    "sensorId": 2,
+    "value": 3.17,
+    "timestamp": "2025-05-20T06:30:00"
+  },
+  {
+    "id": 185,
+    "sensorId": 2,
+    "value": 3.65,
+    "timestamp": "2025-05-20T06:40:00"
+  },
+  {
+    "id": 186,
+    "sensorId": 2,
+    "value": 3.03,
+    "timestamp": "2025-05-20T06:50:00"
+  },
+  {
+    "id": 187,
+    "sensorId": 2,
+    "value": 3.35,
+    "timestamp": "2025-05-20T07:00:00"
+  },
+  {
+    "id": 188,
+    "sensorId": 2,
+    "value": 3.32,
+    "timestamp": "2025-05-20T07:10:00"
+  },
+  {
+    "id": 189,
+    "sensorId": 2,
+    "value": 3.92,
+    "timestamp": "2025-05-20T07:20:00"
+  },
+  {
+    "id": 190,
+    "sensorId": 2,
+    "value": 3.01,
+    "timestamp": "2025-05-20T07:30:00"
+  },
+  {
+    "id": 191,
+    "sensorId": 2,
+    "value": 3.32,
+    "timestamp": "2025-05-20T07:40:00"
+  },
+  {
+    "id": 192,
+    "sensorId": 2,
+    "value": 3.62,
+    "timestamp": "2025-05-20T07:50:00"
+  },
+  {
+    "id": 193,
+    "sensorId": 2,
+    "value": 3.57,
+    "timestamp": "2025-05-20T08:00:00"
+  },
+  {
+    "id": 194,
+    "sensorId": 2,
+    "value": 3.76,
+    "timestamp": "2025-05-20T08:10:00"
+  },
+  {
+    "id": 195,
+    "sensorId": 2,
+    "value": 3.7,
+    "timestamp": "2025-05-20T08:20:00"
+  },
+  {
+    "id": 196,
+    "sensorId": 2,
+    "value": 3.82,
+    "timestamp": "2025-05-20T08:30:00"
+  },
+  {
+    "id": 197,
+    "sensorId": 2,
+    "value": 3.23,
+    "timestamp": "2025-05-20T08:40:00"
+  },
+  {
+    "id": 198,
+    "sensorId": 2,
+    "value": 3.21,
+    "timestamp": "2025-05-20T08:50:00"
+  },
+  {
+    "id": 199,
+    "sensorId": 2,
+    "value": 3.57,
+    "timestamp": "2025-05-20T09:00:00"
+  },
+  {
+    "id": 200,
+    "sensorId": 2,
+    "value": 3.93,
+    "timestamp": "2025-05-20T09:10:00"
+  },
+  {
+    "id": 201,
+    "sensorId": 2,
+    "value": 3.67,
+    "timestamp": "2025-05-20T09:20:00"
+  },
+  {
+    "id": 202,
+    "sensorId": 2,
+    "value": 3.98,
+    "timestamp": "2025-05-20T09:30:00"
+  },
+  {
+    "id": 203,
+    "sensorId": 2,
+    "value": 3.3,
+    "timestamp": "2025-05-20T09:40:00"
+  },
+  {
+    "id": 204,
+    "sensorId": 2,
+    "value": 3.56,
+    "timestamp": "2025-05-20T09:50:00"
+  },
+  {
+    "id": 205,
+    "sensorId": 2,
+    "value": 3.87,
+    "timestamp": "2025-05-20T10:00:00"
+  },
+  {
+    "id": 206,
+    "sensorId": 2,
+    "value": 3.88,
+    "timestamp": "2025-05-20T10:10:00"
+  },
+  {
+    "id": 207,
+    "sensorId": 2,
+    "value": 3.24,
+    "timestamp": "2025-05-20T10:20:00"
+  },
+  {
+    "id": 208,
+    "sensorId": 2,
+    "value": 3.26,
+    "timestamp": "2025-05-20T10:30:00"
+  },
+  {
+    "id": 209,
+    "sensorId": 2,
+    "value": 3.35,
+    "timestamp": "2025-05-20T10:40:00"
+  },
+  {
+    "id": 210,
+    "sensorId": 2,
+    "value": 3.57,
+    "timestamp": "2025-05-20T10:50:00"
+  },
+  {
+    "id": 211,
+    "sensorId": 2,
+    "value": 3.76,
+    "timestamp": "2025-05-20T11:00:00"
+  },
+  {
+    "id": 212,
+    "sensorId": 2,
+    "value": 3.92,
+    "timestamp": "2025-05-20T11:10:00"
+  },
+  {
+    "id": 213,
+    "sensorId": 2,
+    "value": 3.78,
+    "timestamp": "2025-05-20T11:20:00"
+  },
+  {
+    "id": 214,
+    "sensorId": 2,
+    "value": 3.04,
+    "timestamp": "2025-05-20T11:30:00"
+  },
+  {
+    "id": 215,
+    "sensorId": 2,
+    "value": 3.23,
+    "timestamp": "2025-05-20T11:40:00"
+  },
+  {
+    "id": 216,
+    "sensorId": 2,
+    "value": 3.59,
+    "timestamp": "2025-05-20T11:50:00"
+  },
+  {
+    "id": 217,
+    "sensorId": 2,
+    "value": 3.69,
+    "timestamp": "2025-05-20T12:00:00"
+  },
+  {
+    "id": 218,
+    "sensorId": 2,
+    "value": 3.73,
+    "timestamp": "2025-05-20T12:10:00"
+  },
+  {
+    "id": 219,
+    "sensorId": 2,
+    "value": 3.54,
+    "timestamp": "2025-05-20T12:20:00"
+  },
+  {
+    "id": 220,
+    "sensorId": 2,
+    "value": 3.49,
+    "timestamp": "2025-05-20T12:30:00"
+  },
+  {
+    "id": 221,
+    "sensorId": 2,
+    "value": 3.45,
+    "timestamp": "2025-05-20T12:40:00"
+  },
+  {
+    "id": 222,
+    "sensorId": 2,
+    "value": 3.43,
+    "timestamp": "2025-05-20T12:50:00"
+  },
+  {
+    "id": 223,
+    "sensorId": 2,
+    "value": 3.08,
+    "timestamp": "2025-05-20T13:00:00"
+  },
+  {
+    "id": 224,
+    "sensorId": 2,
+    "value": 3.47,
+    "timestamp": "2025-05-20T13:10:00"
+  },
+  {
+    "id": 225,
+    "sensorId": 2,
+    "value": 3.7,
+    "timestamp": "2025-05-20T13:20:00"
+  },
+  {
+    "id": 226,
+    "sensorId": 2,
+    "value": 3.01,
+    "timestamp": "2025-05-20T13:30:00"
+  },
+  {
+    "id": 227,
+    "sensorId": 2,
+    "value": 3.77,
+    "timestamp": "2025-05-20T13:40:00"
+  },
+  {
+    "id": 228,
+    "sensorId": 2,
+    "value": 3.88,
+    "timestamp": "2025-05-20T13:50:00"
+  },
+  {
+    "id": 229,
+    "sensorId": 2,
+    "value": 3.42,
+    "timestamp": "2025-05-20T14:00:00"
+  },
+  {
+    "id": 230,
+    "sensorId": 2,
+    "value": 3.3,
+    "timestamp": "2025-05-20T14:10:00"
+  },
+  {
+    "id": 231,
+    "sensorId": 2,
+    "value": 3.65,
+    "timestamp": "2025-05-20T14:20:00"
+  },
+  {
+    "id": 232,
+    "sensorId": 2,
+    "value": 3.6,
+    "timestamp": "2025-05-20T14:30:00"
+  },
+  {
+    "id": 233,
+    "sensorId": 2,
+    "value": 3.31,
+    "timestamp": "2025-05-20T14:40:00"
+  },
+  {
+    "id": 234,
+    "sensorId": 2,
+    "value": 3.04,
+    "timestamp": "2025-05-20T14:50:00"
+  },
+  {
+    "id": 235,
+    "sensorId": 2,
+    "value": 3.26,
+    "timestamp": "2025-05-20T15:00:00"
+  },
+  {
+    "id": 236,
+    "sensorId": 2,
+    "value": 3.5,
+    "timestamp": "2025-05-20T15:10:00"
+  },
+  {
+    "id": 237,
+    "sensorId": 2,
+    "value": 3.8,
+    "timestamp": "2025-05-20T15:20:00"
+  },
+  {
+    "id": 238,
+    "sensorId": 2,
+    "value": 3.08,
+    "timestamp": "2025-05-20T15:30:00"
+  },
+  {
+    "id": 239,
+    "sensorId": 2,
+    "value": 3.01,
+    "timestamp": "2025-05-20T15:40:00"
+  },
+  {
+    "id": 240,
+    "sensorId": 2,
+    "value": 3.53,
+    "timestamp": "2025-05-20T15:50:00"
+  },
+  {
+    "id": 241,
+    "sensorId": 2,
+    "value": 3.25,
+    "timestamp": "2025-05-20T16:00:00"
+  },
+  {
+    "id": 242,
+    "sensorId": 2,
+    "value": 3.83,
+    "timestamp": "2025-05-20T16:10:00"
+  },
+  {
+    "id": 243,
+    "sensorId": 2,
+    "value": 3.53,
+    "timestamp": "2025-05-20T16:20:00"
+  },
+  {
+    "id": 244,
+    "sensorId": 2,
+    "value": 3.54,
+    "timestamp": "2025-05-20T16:30:00"
+  },
+  {
+    "id": 245,
+    "sensorId": 2,
+    "value": 3.55,
+    "timestamp": "2025-05-20T16:40:00"
+  },
+  {
+    "id": 246,
+    "sensorId": 2,
+    "value": 3.9,
+    "timestamp": "2025-05-20T16:50:00"
+  },
+  {
+    "id": 247,
+    "sensorId": 2,
+    "value": 3.26,
+    "timestamp": "2025-05-20T17:00:00"
+  },
+  {
+    "id": 248,
+    "sensorId": 2,
+    "value": 3.91,
+    "timestamp": "2025-05-20T17:10:00"
+  },
+  {
+    "id": 249,
+    "sensorId": 2,
+    "value": 3.17,
+    "timestamp": "2025-05-20T17:20:00"
+  },
+  {
+    "id": 250,
+    "sensorId": 2,
+    "value": 3.31,
+    "timestamp": "2025-05-20T17:30:00"
+  },
+  {
+    "id": 251,
+    "sensorId": 2,
+    "value": 3.39,
+    "timestamp": "2025-05-20T17:40:00"
+  },
+  {
+    "id": 252,
+    "sensorId": 2,
+    "value": 3.03,
+    "timestamp": "2025-05-20T17:50:00"
+  },
+  {
+    "id": 253,
+    "sensorId": 2,
+    "value": 3.44,
+    "timestamp": "2025-05-20T18:00:00"
+  },
+  {
+    "id": 254,
+    "sensorId": 2,
+    "value": 3.25,
+    "timestamp": "2025-05-20T18:10:00"
+  },
+  {
+    "id": 255,
+    "sensorId": 2,
+    "value": 3.15,
+    "timestamp": "2025-05-20T18:20:00"
+  },
+  {
+    "id": 256,
+    "sensorId": 2,
+    "value": 3.34,
+    "timestamp": "2025-05-20T18:30:00"
+  },
+  {
+    "id": 257,
+    "sensorId": 2,
+    "value": 3.08,
+    "timestamp": "2025-05-20T18:40:00"
+  },
+  {
+    "id": 258,
+    "sensorId": 2,
+    "value": 3.46,
+    "timestamp": "2025-05-20T18:50:00"
+  },
+  {
+    "id": 259,
+    "sensorId": 2,
+    "value": 3.41,
+    "timestamp": "2025-05-20T19:00:00"
+  },
+  {
+    "id": 260,
+    "sensorId": 2,
+    "value": 3.05,
+    "timestamp": "2025-05-20T19:10:00"
+  },
+  {
+    "id": 261,
+    "sensorId": 2,
+    "value": 3.2,
+    "timestamp": "2025-05-20T19:20:00"
+  },
+  {
+    "id": 262,
+    "sensorId": 2,
+    "value": 3.72,
+    "timestamp": "2025-05-20T19:30:00"
+  },
+  {
+    "id": 263,
+    "sensorId": 2,
+    "value": 3.61,
+    "timestamp": "2025-05-20T19:40:00"
+  },
+  {
+    "id": 264,
+    "sensorId": 2,
+    "value": 3.85,
+    "timestamp": "2025-05-20T19:50:00"
+  },
+  {
+    "id": 265,
+    "sensorId": 2,
+    "value": 3.88,
+    "timestamp": "2025-05-20T20:00:00"
+  },
+  {
+    "id": 266,
+    "sensorId": 2,
+    "value": 3.46,
+    "timestamp": "2025-05-20T20:10:00"
+  },
+  {
+    "id": 267,
+    "sensorId": 2,
+    "value": 3.12,
+    "timestamp": "2025-05-20T20:20:00"
+  },
+  {
+    "id": 268,
+    "sensorId": 2,
+    "value": 3.0,
+    "timestamp": "2025-05-20T20:30:00"
+  },
+  {
+    "id": 269,
+    "sensorId": 2,
+    "value": 3.5,
+    "timestamp": "2025-05-20T20:40:00"
+  },
+  {
+    "id": 270,
+    "sensorId": 2,
+    "value": 3.63,
+    "timestamp": "2025-05-20T20:50:00"
+  },
+  {
+    "id": 271,
+    "sensorId": 2,
+    "value": 3.67,
+    "timestamp": "2025-05-20T21:00:00"
+  },
+  {
+    "id": 272,
+    "sensorId": 2,
+    "value": 3.74,
+    "timestamp": "2025-05-20T21:10:00"
+  },
+  {
+    "id": 273,
+    "sensorId": 2,
+    "value": 3.8,
+    "timestamp": "2025-05-20T21:20:00"
+  },
+  {
+    "id": 274,
+    "sensorId": 2,
+    "value": 3.05,
+    "timestamp": "2025-05-20T21:30:00"
+  },
+  {
+    "id": 275,
+    "sensorId": 2,
+    "value": 3.11,
+    "timestamp": "2025-05-20T21:40:00"
+  },
+  {
+    "id": 276,
+    "sensorId": 2,
+    "value": 3.3,
+    "timestamp": "2025-05-20T21:50:00"
+  },
+  {
+    "id": 277,
+    "sensorId": 2,
+    "value": 3.41,
+    "timestamp": "2025-05-20T22:00:00"
+  },
+  {
+    "id": 278,
+    "sensorId": 2,
+    "value": 3.34,
+    "timestamp": "2025-05-20T22:10:00"
+  },
+  {
+    "id": 279,
+    "sensorId": 2,
+    "value": 3.04,
+    "timestamp": "2025-05-20T22:20:00"
+  },
+  {
+    "id": 280,
+    "sensorId": 2,
+    "value": 3.8,
+    "timestamp": "2025-05-20T22:30:00"
+  },
+  {
+    "id": 281,
+    "sensorId": 2,
+    "value": 3.19,
+    "timestamp": "2025-05-20T22:40:00"
+  },
+  {
+    "id": 282,
+    "sensorId": 2,
+    "value": 3.13,
+    "timestamp": "2025-05-20T22:50:00"
+  },
+  {
+    "id": 283,
+    "sensorId": 2,
+    "value": 3.92,
+    "timestamp": "2025-05-20T23:00:00"
+  },
+  {
+    "id": 284,
+    "sensorId": 2,
+    "value": 3.41,
+    "timestamp": "2025-05-20T23:10:00"
+  },
+  {
+    "id": 285,
+    "sensorId": 2,
+    "value": 3.65,
+    "timestamp": "2025-05-20T23:20:00"
+  },
+  {
+    "id": 286,
+    "sensorId": 2,
+    "value": 3.16,
+    "timestamp": "2025-05-20T23:30:00"
+  },
+  {
+    "id": 287,
+    "sensorId": 2,
+    "value": 3.06,
+    "timestamp": "2025-05-20T23:40:00"
+  },
+  {
+    "id": 288,
+    "sensorId": 2,
+    "value": 3.35,
+    "timestamp": "2025-05-20T23:50:00"
+  },
+  {
+    "id": 289,
+    "sensorId": 3,
+    "value": 2.29,
+    "timestamp": "2025-05-20T00:00:00"
+  },
+  {
+    "id": 290,
+    "sensorId": 3,
+    "value": 2.16,
+    "timestamp": "2025-05-20T00:10:00"
+  },
+  {
+    "id": 291,
+    "sensorId": 3,
+    "value": 2.96,
+    "timestamp": "2025-05-20T00:20:00"
+  },
+  {
+    "id": 292,
+    "sensorId": 3,
+    "value": 2.98,
+    "timestamp": "2025-05-20T00:30:00"
+  },
+  {
+    "id": 293,
+    "sensorId": 3,
+    "value": 2.89,
+    "timestamp": "2025-05-20T00:40:00"
+  },
+  {
+    "id": 294,
+    "sensorId": 3,
+    "value": 2.14,
+    "timestamp": "2025-05-20T00:50:00"
+  },
+  {
+    "id": 295,
+    "sensorId": 3,
+    "value": 2.23,
+    "timestamp": "2025-05-20T01:00:00"
+  },
+  {
+    "id": 296,
+    "sensorId": 3,
+    "value": 2.78,
+    "timestamp": "2025-05-20T01:10:00"
+  },
+  {
+    "id": 297,
+    "sensorId": 3,
+    "value": 2.96,
+    "timestamp": "2025-05-20T01:20:00"
+  },
+  {
+    "id": 298,
+    "sensorId": 3,
+    "value": 2.89,
+    "timestamp": "2025-05-20T01:30:00"
+  },
+  {
+    "id": 299,
+    "sensorId": 3,
+    "value": 2.28,
+    "timestamp": "2025-05-20T01:40:00"
+  },
+  {
+    "id": 300,
+    "sensorId": 3,
+    "value": 2.68,
+    "timestamp": "2025-05-20T01:50:00"
+  },
+  {
+    "id": 301,
+    "sensorId": 3,
+    "value": 2.75,
+    "timestamp": "2025-05-20T02:00:00"
+  },
+  {
+    "id": 302,
+    "sensorId": 3,
+    "value": 2.54,
+    "timestamp": "2025-05-20T02:10:00"
+  },
+  {
+    "id": 303,
+    "sensorId": 3,
+    "value": 2.41,
+    "timestamp": "2025-05-20T02:20:00"
+  },
+  {
+    "id": 304,
+    "sensorId": 3,
+    "value": 2.83,
+    "timestamp": "2025-05-20T02:30:00"
+  },
+  {
+    "id": 305,
+    "sensorId": 3,
+    "value": 2.41,
+    "timestamp": "2025-05-20T02:40:00"
+  },
+  {
+    "id": 306,
+    "sensorId": 3,
+    "value": 2.79,
+    "timestamp": "2025-05-20T02:50:00"
+  },
+  {
+    "id": 307,
+    "sensorId": 3,
+    "value": 2.41,
+    "timestamp": "2025-05-20T03:00:00"
+  },
+  {
+    "id": 308,
+    "sensorId": 3,
+    "value": 2.49,
+    "timestamp": "2025-05-20T03:10:00"
+  },
+  {
+    "id": 309,
+    "sensorId": 3,
+    "value": 2.59,
+    "timestamp": "2025-05-20T03:20:00"
+  },
+  {
+    "id": 310,
+    "sensorId": 3,
+    "value": 2.44,
+    "timestamp": "2025-05-20T03:30:00"
+  },
+  {
+    "id": 311,
+    "sensorId": 3,
+    "value": 2.68,
+    "timestamp": "2025-05-20T03:40:00"
+  },
+  {
+    "id": 312,
+    "sensorId": 3,
+    "value": 2.71,
+    "timestamp": "2025-05-20T03:50:00"
+  },
+  {
+    "id": 313,
+    "sensorId": 3,
+    "value": 2.87,
+    "timestamp": "2025-05-20T04:00:00"
+  },
+  {
+    "id": 314,
+    "sensorId": 3,
+    "value": 2.21,
+    "timestamp": "2025-05-20T04:10:00"
+  },
+  {
+    "id": 315,
+    "sensorId": 3,
+    "value": 2.16,
+    "timestamp": "2025-05-20T04:20:00"
+  },
+  {
+    "id": 316,
+    "sensorId": 3,
+    "value": 2.65,
+    "timestamp": "2025-05-20T04:30:00"
+  },
+  {
+    "id": 317,
+    "sensorId": 3,
+    "value": 2.72,
+    "timestamp": "2025-05-20T04:40:00"
+  },
+  {
+    "id": 318,
+    "sensorId": 3,
+    "value": 2.45,
+    "timestamp": "2025-05-20T04:50:00"
+  },
+  {
+    "id": 319,
+    "sensorId": 3,
+    "value": 2.18,
+    "timestamp": "2025-05-20T05:00:00"
+  },
+  {
+    "id": 320,
+    "sensorId": 3,
+    "value": 2.32,
+    "timestamp": "2025-05-20T05:10:00"
+  },
+  {
+    "id": 321,
+    "sensorId": 3,
+    "value": 2.31,
+    "timestamp": "2025-05-20T05:20:00"
+  },
+  {
+    "id": 322,
+    "sensorId": 3,
+    "value": 2.63,
+    "timestamp": "2025-05-20T05:30:00"
+  },
+  {
+    "id": 323,
+    "sensorId": 3,
+    "value": 2.64,
+    "timestamp": "2025-05-20T05:40:00"
+  },
+  {
+    "id": 324,
+    "sensorId": 3,
+    "value": 2.91,
+    "timestamp": "2025-05-20T05:50:00"
+  },
+  {
+    "id": 325,
+    "sensorId": 3,
+    "value": 2.49,
+    "timestamp": "2025-05-20T06:00:00"
+  },
+  {
+    "id": 326,
+    "sensorId": 3,
+    "value": 2.92,
+    "timestamp": "2025-05-20T06:10:00"
+  },
+  {
+    "id": 327,
+    "sensorId": 3,
+    "value": 2.23,
+    "timestamp": "2025-05-20T06:20:00"
+  },
+  {
+    "id": 328,
+    "sensorId": 3,
+    "value": 2.69,
+    "timestamp": "2025-05-20T06:30:00"
+  },
+  {
+    "id": 329,
+    "sensorId": 3,
+    "value": 2.12,
+    "timestamp": "2025-05-20T06:40:00"
+  },
+  {
+    "id": 330,
+    "sensorId": 3,
+    "value": 2.23,
+    "timestamp": "2025-05-20T06:50:00"
+  },
+  {
+    "id": 331,
+    "sensorId": 3,
+    "value": 2.01,
+    "timestamp": "2025-05-20T07:00:00"
+  },
+  {
+    "id": 332,
+    "sensorId": 3,
+    "value": 2.49,
+    "timestamp": "2025-05-20T07:10:00"
+  },
+  {
+    "id": 333,
+    "sensorId": 3,
+    "value": 2.83,
+    "timestamp": "2025-05-20T07:20:00"
+  },
+  {
+    "id": 334,
+    "sensorId": 3,
+    "value": 2.05,
+    "timestamp": "2025-05-20T07:30:00"
+  },
+  {
+    "id": 335,
+    "sensorId": 3,
+    "value": 2.11,
+    "timestamp": "2025-05-20T07:40:00"
+  },
+  {
+    "id": 336,
+    "sensorId": 3,
+    "value": 2.07,
+    "timestamp": "2025-05-20T07:50:00"
+  },
+  {
+    "id": 337,
+    "sensorId": 3,
+    "value": 2.28,
+    "timestamp": "2025-05-20T08:00:00"
+  },
+  {
+    "id": 338,
+    "sensorId": 3,
+    "value": 2.12,
+    "timestamp": "2025-05-20T08:10:00"
+  },
+  {
+    "id": 339,
+    "sensorId": 3,
+    "value": 2.15,
+    "timestamp": "2025-05-20T08:20:00"
+  },
+  {
+    "id": 340,
+    "sensorId": 3,
+    "value": 2.74,
+    "timestamp": "2025-05-20T08:30:00"
+  },
+  {
+    "id": 341,
+    "sensorId": 3,
+    "value": 2.32,
+    "timestamp": "2025-05-20T08:40:00"
+  },
+  {
+    "id": 342,
+    "sensorId": 3,
+    "value": 2.03,
+    "timestamp": "2025-05-20T08:50:00"
+  },
+  {
+    "id": 343,
+    "sensorId": 3,
+    "value": 2.19,
+    "timestamp": "2025-05-20T09:00:00"
+  },
+  {
+    "id": 344,
+    "sensorId": 3,
+    "value": 2.2,
+    "timestamp": "2025-05-20T09:10:00"
+  },
+  {
+    "id": 345,
+    "sensorId": 3,
+    "value": 2.81,
+    "timestamp": "2025-05-20T09:20:00"
+  },
+  {
+    "id": 346,
+    "sensorId": 3,
+    "value": 2.16,
+    "timestamp": "2025-05-20T09:30:00"
+  },
+  {
+    "id": 347,
+    "sensorId": 3,
+    "value": 2.34,
+    "timestamp": "2025-05-20T09:40:00"
+  },
+  {
+    "id": 348,
+    "sensorId": 3,
+    "value": 2.09,
+    "timestamp": "2025-05-20T09:50:00"
+  },
+  {
+    "id": 349,
+    "sensorId": 3,
+    "value": 2.37,
+    "timestamp": "2025-05-20T10:00:00"
+  },
+  {
+    "id": 350,
+    "sensorId": 3,
+    "value": 2.19,
+    "timestamp": "2025-05-20T10:10:00"
+  },
+  {
+    "id": 351,
+    "sensorId": 3,
+    "value": 2.22,
+    "timestamp": "2025-05-20T10:20:00"
+  },
+  {
+    "id": 352,
+    "sensorId": 3,
+    "value": 2.06,
+    "timestamp": "2025-05-20T10:30:00"
+  },
+  {
+    "id": 353,
+    "sensorId": 3,
+    "value": 2.08,
+    "timestamp": "2025-05-20T10:40:00"
+  },
+  {
+    "id": 354,
+    "sensorId": 3,
+    "value": 2.55,
+    "timestamp": "2025-05-20T10:50:00"
+  },
+  {
+    "id": 355,
+    "sensorId": 3,
+    "value": 2.53,
+    "timestamp": "2025-05-20T11:00:00"
+  },
+  {
+    "id": 356,
+    "sensorId": 3,
+    "value": 2.92,
+    "timestamp": "2025-05-20T11:10:00"
+  },
+  {
+    "id": 357,
+    "sensorId": 3,
+    "value": 2.62,
+    "timestamp": "2025-05-20T11:20:00"
+  },
+  {
+    "id": 358,
+    "sensorId": 3,
+    "value": 2.54,
+    "timestamp": "2025-05-20T11:30:00"
+  },
+  {
+    "id": 359,
+    "sensorId": 3,
+    "value": 2.29,
+    "timestamp": "2025-05-20T11:40:00"
+  },
+  {
+    "id": 360,
+    "sensorId": 3,
+    "value": 2.02,
+    "timestamp": "2025-05-20T11:50:00"
+  },
+  {
+    "id": 361,
+    "sensorId": 3,
+    "value": 2.71,
+    "timestamp": "2025-05-20T12:00:00"
+  },
+  {
+    "id": 362,
+    "sensorId": 3,
+    "value": 2.58,
+    "timestamp": "2025-05-20T12:10:00"
+  },
+  {
+    "id": 363,
+    "sensorId": 3,
+    "value": 2.3,
+    "timestamp": "2025-05-20T12:20:00"
+  },
+  {
+    "id": 364,
+    "sensorId": 3,
+    "value": 2.79,
+    "timestamp": "2025-05-20T12:30:00"
+  },
+  {
+    "id": 365,
+    "sensorId": 3,
+    "value": 2.15,
+    "timestamp": "2025-05-20T12:40:00"
+  },
+  {
+    "id": 366,
+    "sensorId": 3,
+    "value": 2.87,
+    "timestamp": "2025-05-20T12:50:00"
+  },
+  {
+    "id": 367,
+    "sensorId": 3,
+    "value": 2.9,
+    "timestamp": "2025-05-20T13:00:00"
+  },
+  {
+    "id": 368,
+    "sensorId": 3,
+    "value": 2.63,
+    "timestamp": "2025-05-20T13:10:00"
+  },
+  {
+    "id": 369,
+    "sensorId": 3,
+    "value": 2.01,
+    "timestamp": "2025-05-20T13:20:00"
+  },
+  {
+    "id": 370,
+    "sensorId": 3,
+    "value": 2.18,
+    "timestamp": "2025-05-20T13:30:00"
+  },
+  {
+    "id": 371,
+    "sensorId": 3,
+    "value": 2.62,
+    "timestamp": "2025-05-20T13:40:00"
+  },
+  {
+    "id": 372,
+    "sensorId": 3,
+    "value": 2.85,
+    "timestamp": "2025-05-20T13:50:00"
+  },
+  {
+    "id": 373,
+    "sensorId": 3,
+    "value": 2.56,
+    "timestamp": "2025-05-20T14:00:00"
+  },
+  {
+    "id": 374,
+    "sensorId": 3,
+    "value": 2.05,
+    "timestamp": "2025-05-20T14:10:00"
+  },
+  {
+    "id": 375,
+    "sensorId": 3,
+    "value": 2.58,
+    "timestamp": "2025-05-20T14:20:00"
+  },
+  {
+    "id": 376,
+    "sensorId": 3,
+    "value": 2.76,
+    "timestamp": "2025-05-20T14:30:00"
+  },
+  {
+    "id": 377,
+    "sensorId": 3,
+    "value": 2.06,
+    "timestamp": "2025-05-20T14:40:00"
+  },
+  {
+    "id": 378,
+    "sensorId": 3,
+    "value": 2.68,
+    "timestamp": "2025-05-20T14:50:00"
+  },
+  {
+    "id": 379,
+    "sensorId": 3,
+    "value": 2.27,
+    "timestamp": "2025-05-20T15:00:00"
+  },
+  {
+    "id": 380,
+    "sensorId": 3,
+    "value": 2.21,
+    "timestamp": "2025-05-20T15:10:00"
+  },
+  {
+    "id": 381,
+    "sensorId": 3,
+    "value": 2.28,
+    "timestamp": "2025-05-20T15:20:00"
+  },
+  {
+    "id": 382,
+    "sensorId": 3,
+    "value": 2.49,
+    "timestamp": "2025-05-20T15:30:00"
+  },
+  {
+    "id": 383,
+    "sensorId": 3,
+    "value": 2.4,
+    "timestamp": "2025-05-20T15:40:00"
+  },
+  {
+    "id": 384,
+    "sensorId": 3,
+    "value": 2.37,
+    "timestamp": "2025-05-20T15:50:00"
+  },
+  {
+    "id": 385,
+    "sensorId": 3,
+    "value": 2.03,
+    "timestamp": "2025-05-20T16:00:00"
+  },
+  {
+    "id": 386,
+    "sensorId": 3,
+    "value": 2.35,
+    "timestamp": "2025-05-20T16:10:00"
+  },
+  {
+    "id": 387,
+    "sensorId": 3,
+    "value": 2.28,
+    "timestamp": "2025-05-20T16:20:00"
+  },
+  {
+    "id": 388,
+    "sensorId": 3,
+    "value": 2.48,
+    "timestamp": "2025-05-20T16:30:00"
+  },
+  {
+    "id": 389,
+    "sensorId": 3,
+    "value": 2.63,
+    "timestamp": "2025-05-20T16:40:00"
+  },
+  {
+    "id": 390,
+    "sensorId": 3,
+    "value": 2.84,
+    "timestamp": "2025-05-20T16:50:00"
+  },
+  {
+    "id": 391,
+    "sensorId": 3,
+    "value": 2.61,
+    "timestamp": "2025-05-20T17:00:00"
+  },
+  {
+    "id": 392,
+    "sensorId": 3,
+    "value": 3.0,
+    "timestamp": "2025-05-20T17:10:00"
+  },
+  {
+    "id": 393,
+    "sensorId": 3,
+    "value": 2.42,
+    "timestamp": "2025-05-20T17:20:00"
+  },
+  {
+    "id": 394,
+    "sensorId": 3,
+    "value": 2.87,
+    "timestamp": "2025-05-20T17:30:00"
+  },
+  {
+    "id": 395,
+    "sensorId": 3,
+    "value": 2.28,
+    "timestamp": "2025-05-20T17:40:00"
+  },
+  {
+    "id": 396,
+    "sensorId": 3,
+    "value": 2.28,
+    "timestamp": "2025-05-20T17:50:00"
+  },
+  {
+    "id": 397,
+    "sensorId": 3,
+    "value": 2.81,
+    "timestamp": "2025-05-20T18:00:00"
+  },
+  {
+    "id": 398,
+    "sensorId": 3,
+    "value": 2.54,
+    "timestamp": "2025-05-20T18:10:00"
+  },
+  {
+    "id": 399,
+    "sensorId": 3,
+    "value": 2.69,
+    "timestamp": "2025-05-20T18:20:00"
+  },
+  {
+    "id": 400,
+    "sensorId": 3,
+    "value": 2.51,
+    "timestamp": "2025-05-20T18:30:00"
+  },
+  {
+    "id": 401,
+    "sensorId": 3,
+    "value": 2.55,
+    "timestamp": "2025-05-20T18:40:00"
+  },
+  {
+    "id": 402,
+    "sensorId": 3,
+    "value": 2.46,
+    "timestamp": "2025-05-20T18:50:00"
+  },
+  {
+    "id": 403,
+    "sensorId": 3,
+    "value": 2.68,
+    "timestamp": "2025-05-20T19:00:00"
+  },
+  {
+    "id": 404,
+    "sensorId": 3,
+    "value": 2.12,
+    "timestamp": "2025-05-20T19:10:00"
+  },
+  {
+    "id": 405,
+    "sensorId": 3,
+    "value": 2.83,
+    "timestamp": "2025-05-20T19:20:00"
+  },
+  {
+    "id": 406,
+    "sensorId": 3,
+    "value": 2.36,
+    "timestamp": "2025-05-20T19:30:00"
+  },
+  {
+    "id": 407,
+    "sensorId": 3,
+    "value": 2.52,
+    "timestamp": "2025-05-20T19:40:00"
+  },
+  {
+    "id": 408,
+    "sensorId": 3,
+    "value": 2.92,
+    "timestamp": "2025-05-20T19:50:00"
+  },
+  {
+    "id": 409,
+    "sensorId": 3,
+    "value": 2.31,
+    "timestamp": "2025-05-20T20:00:00"
+  },
+  {
+    "id": 410,
+    "sensorId": 3,
+    "value": 2.68,
+    "timestamp": "2025-05-20T20:10:00"
+  },
+  {
+    "id": 411,
+    "sensorId": 3,
+    "value": 2.3,
+    "timestamp": "2025-05-20T20:20:00"
+  },
+  {
+    "id": 412,
+    "sensorId": 3,
+    "value": 2.87,
+    "timestamp": "2025-05-20T20:30:00"
+  },
+  {
+    "id": 413,
+    "sensorId": 3,
+    "value": 2.18,
+    "timestamp": "2025-05-20T20:40:00"
+  },
+  {
+    "id": 414,
+    "sensorId": 3,
+    "value": 2.68,
+    "timestamp": "2025-05-20T20:50:00"
+  },
+  {
+    "id": 415,
+    "sensorId": 3,
+    "value": 2.38,
+    "timestamp": "2025-05-20T21:00:00"
+  },
+  {
+    "id": 416,
+    "sensorId": 3,
+    "value": 2.1,
+    "timestamp": "2025-05-20T21:10:00"
+  },
+  {
+    "id": 417,
+    "sensorId": 3,
+    "value": 2.76,
+    "timestamp": "2025-05-20T21:20:00"
+  },
+  {
+    "id": 418,
+    "sensorId": 3,
+    "value": 2.65,
+    "timestamp": "2025-05-20T21:30:00"
+  },
+  {
+    "id": 419,
+    "sensorId": 3,
+    "value": 2.22,
+    "timestamp": "2025-05-20T21:40:00"
+  },
+  {
+    "id": 420,
+    "sensorId": 3,
+    "value": 2.14,
+    "timestamp": "2025-05-20T21:50:00"
+  },
+  {
+    "id": 421,
+    "sensorId": 3,
+    "value": 2.41,
+    "timestamp": "2025-05-20T22:00:00"
+  },
+  {
+    "id": 422,
+    "sensorId": 3,
+    "value": 2.73,
+    "timestamp": "2025-05-20T22:10:00"
+  },
+  {
+    "id": 423,
+    "sensorId": 3,
+    "value": 2.76,
+    "timestamp": "2025-05-20T22:20:00"
+  },
+  {
+    "id": 424,
+    "sensorId": 3,
+    "value": 2.23,
+    "timestamp": "2025-05-20T22:30:00"
+  },
+  {
+    "id": 425,
+    "sensorId": 3,
+    "value": 2.32,
+    "timestamp": "2025-05-20T22:40:00"
+  },
+  {
+    "id": 426,
+    "sensorId": 3,
+    "value": 2.7,
+    "timestamp": "2025-05-20T22:50:00"
+  },
+  {
+    "id": 427,
+    "sensorId": 3,
+    "value": 2.74,
+    "timestamp": "2025-05-20T23:00:00"
+  },
+  {
+    "id": 428,
+    "sensorId": 3,
+    "value": 2.79,
+    "timestamp": "2025-05-20T23:10:00"
+  },
+  {
+    "id": 429,
+    "sensorId": 3,
+    "value": 2.54,
+    "timestamp": "2025-05-20T23:20:00"
+  },
+  {
+    "id": 430,
+    "sensorId": 3,
+    "value": 2.08,
+    "timestamp": "2025-05-20T23:30:00"
+  },
+  {
+    "id": 431,
+    "sensorId": 3,
+    "value": 2.92,
+    "timestamp": "2025-05-20T23:40:00"
+  },
+  {
+    "id": 432,
+    "sensorId": 3,
+    "value": 2.27,
+    "timestamp": "2025-05-20T23:50:00"
+  }
+]
