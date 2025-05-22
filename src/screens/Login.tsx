@@ -6,13 +6,17 @@ import MaterialIcons from "@expo/vector-icons/MaterialIcons"
 import theme from "../styles/theme"
 import InputField from "../components/InputField"
 import LoginButton from "../components/LoginButton"
+import { RootStackParamList } from '../types/navigation';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+
+type NavigationProps = NativeStackNavigationProp<RootStackParamList, 'Home'>;
 
 const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
 
-    const navigation = useNavigation();
+    const navigation = useNavigation<NavigationProps>();
 
     return (
         <Container>
@@ -44,7 +48,7 @@ const Login = () => {
                 />
                 <StyledText>Esqueceu sua senha?</StyledText>
             </LoginForm>
-            <LoginButton text="Login" onClick={() => Alert.alert("oi")} />
+            <LoginButton text="Login" onClick={() => navigation.navigate("Home")} />
         </Container>
     )
 }
