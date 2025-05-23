@@ -2,6 +2,7 @@ import { View, Text, Dimensions } from "react-native"
 import { LineChart } from "react-native-chart-kit";
 import styled from "styled-components";
 import theme from "../styles/theme";
+import { Skeleton } from "moti/skeleton";
 
 interface ChartCardProps {
     sensorName: string;
@@ -48,16 +49,29 @@ const ChartCard: React.FC<ChartCardProps> = ({
     sensorData,
 }) => {
     const { horas, medias } = calcularMediaPorHora(sensorData);
+
+    const isDataReady = horas.length > 0 && medias.length > 0;
+
     return (
-        horas.length > 0 && medias.length > 0 && (
-            <ChartCardStyled>
-                <ChartHeader>
-                    <View>
-                        <ChartTitle>Histórico de Pressão</ChartTitle>
-                        <ChartSubtitle>Últimas 24 horas</ChartSubtitle>
-                    </View>
-                    <ChartSensor>{sensorName}</ChartSensor>
-                </ChartHeader>
+        <ChartCardStyled>
+            <ChartHeader>
+                <View>
+                    <ChartTitle>Histórico de Pressão</ChartTitle>
+                    <ChartSubtitle>Últimas 24 horas</ChartSubtitle>
+                </View>
+                <ChartSensor>{sensorName}</ChartSensor>
+            </ChartHeader>
+            {!isDataReady ? (
+                <View style={{ paddingLeft: 16 }}>
+                    <Skeleton
+                    show={true}
+                    colorMode="light"
+                    height={170}
+                    width={Dimensions.get("window").width - 98}
+                    radius={8}
+                />
+                </View>
+            ) : (
                 <LineChart
                     bezier
                     data={{
@@ -83,8 +97,8 @@ const ChartCard: React.FC<ChartCardProps> = ({
                     }}
                     style={{ borderRadius: 8 }}
                 />
-            </ChartCardStyled>
-        )
+            )}
+        </ChartCardStyled>
     )
 }
 

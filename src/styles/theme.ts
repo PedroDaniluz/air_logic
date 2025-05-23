@@ -2,7 +2,7 @@ export default {
     colors: {
         primaryBlue: '#003049',
         secundaryBlue: '#669BBC',
-        background: '#ECFDFF'
+        background: '#fff'
     },
     fonts : {
         regular: 'Montserrat_400Regular',

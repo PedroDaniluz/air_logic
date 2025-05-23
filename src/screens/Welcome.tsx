@@ -29,6 +29,7 @@ const GradientContainer = styled(LinearGradient)`
   flex: 1;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 `;
 
 const Logo = styled.Image.attrs({

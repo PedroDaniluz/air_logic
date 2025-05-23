@@ -6,6 +6,7 @@ import { getSensorDataById } from "../services/api";
 import styled from "styled-components/native";
 import theme from "../styles/theme";
 import ChartCard from "../components/ChartCard";
+import { Skeleton } from "moti/skeleton";
 
 type HistoricoScreenRouteProp = RouteProp<RootStackParamList, "History">;
 
@@ -45,6 +46,8 @@ const History = () => {
 
   const [sensorData, setSensorData] = useState<SensorData[]>([]);
 
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     const fetchSensorData = async () => {
       try {
@@ -52,6 +55,8 @@ const History = () => {
         setSensorData(data);
       } catch (error) {
         console.error("Erro ao buscar dados do sensor", error);
+      } finally {
+        setIsLoading(false);
       }
     };
 
@@ -69,6 +74,21 @@ const History = () => {
 
       <FullHistory>
         <HistoryHeader>Histórico Detalhado</HistoryHeader>
+        {isLoading && (
+          <View style={{ gap: 8 }}>
+            <Skeleton colorMode="light" show width={160} height={20} radius={4} />
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Skeleton
+                key={i}
+                colorMode="light"
+                width={'100%'}
+                height={24}
+                radius={2}
+                show
+              />
+            ))}
+          </View>
+        )}
         <FlatList
           data={agruparPorData(sensorData).reverse()}
           keyExtractor={(item) => item.data}
@@ -97,6 +117,7 @@ const History = () => {
             </View>
           )}
         />
+
       </FullHistory>
 
     </Container>
