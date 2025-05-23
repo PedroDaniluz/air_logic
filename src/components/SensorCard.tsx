@@ -2,9 +2,14 @@ import { View } from "react-native";
 import styled from "styled-components/native";
 import theme from "../styles/theme";
 import Gauge from "./Gauge";
-import { getSensorDataById} from "../services/api";
+import { getSensorDataById } from "../services/api";
 import { useEffect, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { RootStackParamList } from "../types/navigation";
+import { TouchableOpacity } from "react-native";
+
+type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'History'>;
 
 interface SensorCardProps {
     title: string;
@@ -15,6 +20,7 @@ const SensorCard: React.FC<SensorCardProps> = ({
     title,
     sensorId,
 }) => {
+    const navigation = useNavigation<NavigationProp>();
     const [sensorValue, setSensorValue] = useState<number | null>(null);
 
     useEffect(() => {
@@ -37,7 +43,11 @@ const SensorCard: React.FC<SensorCardProps> = ({
                     <Title>{title}</Title>
                     <Subtitle>Pressão</Subtitle>
                 </View>
-                <History>Histórico</History>
+                <TouchableOpacity
+                    onPress={() => navigation.navigate("History", { sensorId, sensorName: title })}
+                > 
+                    <History>Histórico</History>
+                </TouchableOpacity>
             </CardHeader>
             <CardContent>
                 <SensorValue>{sensorValue?.toFixed(1)} bar</SensorValue>
@@ -85,7 +95,7 @@ const History = styled.Text`
     font-family: ${theme.fonts.bold};
     font-size: 14px;
     text-decoration-line: underline;
-`;  
+`;
 
 const CardContent = styled(View)`
     align-items: center;
