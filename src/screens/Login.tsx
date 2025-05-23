@@ -9,7 +9,7 @@ import LoginButton from "../components/LoginButton"
 import { RootStackParamList } from '../types/navigation';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
-type NavigationProps = NativeStackNavigationProp<RootStackParamList, 'Home'>;
+type NavigationProps = NativeStackNavigationProp<RootStackParamList, 'MainApp'>;
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -48,7 +48,7 @@ const Login = () => {
                 />
                 <StyledText>Esqueceu sua senha?</StyledText>
             </LoginForm>
-            <LoginButton text="Login" onClick={() => navigation.navigate("Home")} />
+            <LoginButton text="Login" onClick={() => navigation.navigate("MainApp")} />
         </Container>
     )
 }

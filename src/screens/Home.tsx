@@ -19,7 +19,7 @@ const Home = () => {
 
 const Container = styled(View)`
     flex: 1;
-    padding: 72px 32px;
+    padding: 72px 32px 0;
     gap: 24px;
     background-color: ${theme.colors.background};
 `;

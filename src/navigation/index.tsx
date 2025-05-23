@@ -1,10 +1,8 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-// Screens
 import Welcome from '../screens/Welcome';
 import Login from '../screens/Login';
-import Home from '../screens/Home';
-import History from '../screens/History';
+import TabRoutes from './TabRoutes';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,8 +11,7 @@ export default function Routes() {
     <Stack.Navigator initialRouteName="Welcome" screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Welcome" component={Welcome} />
       <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="Home" component={Home} />
-      <Stack.Screen name="History" component={History}/>
+      <Stack.Screen name="MainApp" component={TabRoutes} />
     </Stack.Navigator>
   );
 }
