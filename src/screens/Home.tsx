@@ -1,39 +1,51 @@
-import { View, Text } from "react-native";
-import theme from "../styles/theme";
+import { View, Text, FlatList } from "react-native";
 import styled from "styled-components/native";
+import theme from "../styles/theme";
 import SensorCard from "../components/SensorCard";
-import { ScrollView } from "react-native-gesture-handler";
+
+const sensors = [
+    {
+        id: 1,
+        name: "Compressor",
+    },
+    {
+        id: 2,
+        name: "Atuador 1",
+    },
+    {
+        id: 3,
+        name: "Atuador 2",
+    },
+];
 
 const Home = () => {
     return (
         <Container>
-            <InnerContainer>
-                <Header>
-                    <HeaderText>Home</HeaderText>
-                    <HeaderLogo source={require('../../assets/logo2.png')} />
-                </Header>
-                <SensorCard title={"Compressor"} sensorId={1} />
-                <SensorCard title={"Atuador 1"} sensorId={2} />
-                <SensorCard title={"Atuador 2"} sensorId={3} />
-            </InnerContainer>
+            <Header>
+                <HeaderText>Home</HeaderText>
+                <HeaderLogo source={require('../../assets/logo2.png')} />
+            </Header>
+            <FlatList
+                bounces={false}
+                data={sensors}
+                renderItem={({ item }) => (
+                    <SensorCard title={item.name} sensorId={item.id} />
+                )}
+                showsVerticalScrollIndicator={false}
+                contentContainerStyle={{ gap: 24, paddingHorizontal: 32, marginTop: 24 }}
+            />
         </Container>
     );
 }
 
-const Container = styled.ScrollView.attrs(() => ({
-  bounces: false,
-}))`
-  padding: 72px 32px 0;
-  background-color: ${theme.colors.background};
+const Container = styled(View)`
+    flex: 1;
+    padding-top: 72px;
+    background-color: ${theme.colors.background};
 `;
 
-const InnerContainer = styled(View)`
-    flex: 1;
-    display: flex;
-    gap: 24px;
-`
-
 const Header = styled(View)`
+    padding: 0 32px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
