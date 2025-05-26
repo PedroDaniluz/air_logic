@@ -68,7 +68,7 @@ const Card = styled(View)`
   shadow-opacity: 0.1;
   shadow-radius: 4px;
   shadow-offset: 0px 2px;
-  elevation: 2;
+  elevation: 4;
 `;
 
 const CardHeader = styled(View)`
