@@ -38,20 +38,20 @@ const Home = () => {
     );
 }
 
-const Container = styled(View)`
+const Container = styled.View`
     flex: 1;
     padding-top: 72px;
     background-color: ${theme.colors.background};
 `;
 
-const Header = styled(View)`
+const Header = styled.View`
     padding: 0 32px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 `
 
-const HeaderText = styled(Text)`
+const HeaderText = styled.Text`
     color: ${theme.colors.primaryBlue};
     font-family: ${theme.fonts.bold};
     font-size: 24px

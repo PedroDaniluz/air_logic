@@ -59,7 +59,7 @@ const SensorCard: React.FC<SensorCardProps> = ({ title, sensorId }) => {
     );
 };
 
-const Card = styled(View)`
+const Card = styled.View`
   width: 100%;
   padding: 16px;
   background-color: ${theme.colors.background};
@@ -71,7 +71,7 @@ const Card = styled(View)`
   elevation: 4;
 `;
 
-const CardHeader = styled(View)`
+const CardHeader = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
@@ -96,7 +96,7 @@ const History = styled.Text`
   text-decoration-line: underline;
 `;
 
-const CardContent = styled(View)`
+const CardContent = styled.View`
   align-items: center;
   flex-direction: row;
   margin-top: 8px;

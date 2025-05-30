@@ -26,7 +26,7 @@ const InputField: React.FC<InputFieldProps> = ({
     );
 };
 
-const StyledInput = styled(TextInput)`
+const StyledInput = styled.TextInput`
     width: 100%;
     border: 1px solid ${theme.colors.primaryBlue};
     border-radius: 6px;

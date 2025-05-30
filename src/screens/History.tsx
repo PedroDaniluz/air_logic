@@ -117,27 +117,25 @@ const History = () => {
             </View>
           )}
         />
-
       </FullHistory>
-
     </Container>
   );
 };
 
-const Container = styled(View)`
+const Container = styled.View`
   flex: 1;
   gap: 24px;
   background-color: ${theme.colors.background};
   padding: 72px 32px 24px;
 `;
 
-const Header = styled(Text)`
+const Header = styled.Text`
   font-family: ${theme.fonts.bold};
   color: ${theme.colors.primaryBlue};
   font-size: 24px;
 `;
 
-const FullHistory = styled(View)`
+const FullHistory = styled.View`
   flex: 1;
   padding: 24px;
   background-color: ${theme.colors.background};
@@ -149,27 +147,27 @@ const FullHistory = styled(View)`
   elevation: 4;
 `;
 
-const HistoryHeader = styled(Text)`
+const HistoryHeader = styled.Text`
   font-family: ${theme.fonts.bold};
   color: ${theme.colors.primaryBlue};
   font-size: 16px;
   margin-bottom: 12px;
 `;
 
-const DateHeader = styled(Text)`
+const DateHeader = styled.Text`
   font-family: ${theme.fonts.medium};
   font-size: 16px;
   color: ${theme.colors.secundaryBlue};
   margin-bottom: 8px;
 `;
 
-const Reading = styled(View)`
+const Reading = styled.View`
   flex-direction: row;
   margin: 4px 0;
   width: 100%;
 `;
 
-const ReadingText = styled(Text)`
+const ReadingText = styled.Text`
   font-family: ${theme.fonts.medium};
   font-size: 14px;
   color: ${theme.colors.primaryBlue};

@@ -29,7 +29,7 @@ const Gauge: React.FC<GaugeProps> = ({
     );
 };
 
-const GaugeContainer = styled(View)`
+const GaugeContainer = styled.View`
     position: relative;
     justify-content: center;
     align-items: center;

@@ -1,6 +1,6 @@
 import { View, Text, Dimensions } from "react-native"
 import { LineChart } from "react-native-chart-kit";
-import styled from "styled-components";
+import styled from "styled-components/native";
 import theme from "../styles/theme";
 import { Skeleton } from "moti/skeleton";
 
@@ -103,7 +103,7 @@ const ChartCard: React.FC<ChartCardProps> = ({
 }
 
 
-const ChartCardStyled = styled(View)`
+const ChartCardStyled = styled.View`
   width: 100%;
   padding-bottom: 16px;
   background-color: ${theme.colors.background};
@@ -115,26 +115,26 @@ const ChartCardStyled = styled(View)`
   elevation: 4;
 `;
 
-const ChartHeader = styled(View)`
+const ChartHeader = styled.View`
   padding: 16px;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
 `;
 
-const ChartTitle = styled(Text)`
+const ChartTitle = styled.Text`
   font-family: ${theme.fonts.bold};
   color: ${theme.colors.primaryBlue};
   font-size: 16px;
 `;
 
-const ChartSubtitle = styled(Text)`
+const ChartSubtitle = styled.Text`
   font-family: ${theme.fonts.regular};
   font-size: 16px;
   color: ${theme.colors.secundaryBlue};
 `;
 
-const ChartSensor = styled(Text)`
+const ChartSensor = styled.Text`
   font-family: ${theme.fonts.regular};
   font-size: 14px;
   color: ${theme.colors.secundaryBlue};
