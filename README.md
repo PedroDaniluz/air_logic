@@ -1,14 +1,40 @@
-# Air Logic
+<div align="center">
+  <img src="./assets/logo.png" alt="Exemplo imagem" width="60%" />
+</div>
 
-Aplicativo mobile foi focado na visualização e análise de dados sensoriais de sistemas pneumáticos. Ele permite acompanhar, em tempo real ou por histórico, as leituras de pressão captadas por sensores, organizando os dados em gráficos interativos e listas por data.
+<br>
+<br>
 
-## Pré-requisitos
+<div align="center">
+  <a href="#colaboradores">Participantes</a> •
+  <a href="#pré-requisitos">Pré-requisitos</a> •
+  <a href="#instalação">Instalação</a> •
+  <a href="#rodando-o-projeto">Rodando o Projeto</a>
+</div>
+
+<br>
+<br>
+
+> Aplicativo mobile focado na visualização e análise de dados sensoriais de sistemas pneumáticos. Ele permite acompanhar, em tempo real ou por histórico, as leituras de pressão captadas por sensores, organizando os dados em gráficos interativos e listas por data.
+
+<h2 id="colaboradores">🤝 Colaboradores</h2>
+
+
+| Nome                              | RM       |
+|-----------------------------------|----------|
+| Lucas Camargo de Souza            | RM551898 |
+| Kenzo Schiavone Inoue dos Santos  | RM99890  |
+| Pedro Daniluz                     | RM97697  |
+| Roberto Tetsuo Tagashira          | RM551838 |
+| Sofia Barbosa de Souza            | RM552298 |
+
+<h2 id="pré-requisitos">💻 Pré-requisitos</h2>
 
 - [Node.js](https://nodejs.org/)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 - [Gerenciador de pacotes: npm ou yarn]
 
-## Instalação
+<h2 id="instalação">🚀 Instalação</h2>
 
 Clone o repositório:
 
@@ -25,7 +51,7 @@ npm install
 yarn
 ```
 
-## Rodando o Projeto
+<h2 id="rodando-o-projeto">☕ Rodando o Projeto</h2>
 
 1. Instale o Expo CLI globalmente, se ainda não tiver:
 
