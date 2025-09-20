@@ -1,13 +1,17 @@
-const sensorsData: SensorData[] = require('../mock/sensors.json');
+import axios from "axios";
+import { Reading } from "../types/readings";
 
-type SensorData = {
-  id: number;
-  sensorId: number;
-  value: number;
-  timestamp: string;
+const api = axios.create({
+  baseURL: "http://localhost:8080/api",
+});
+
+export const getSensorReadings = async (): Promise<Reading[]> => {
+  const response = await api.get("/readings");
+  return response.data;
 };
 
-export const getSensorDataById = async (sensorId: number): Promise<SensorData[]> => {
-  await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate network delay
-  return sensorsData.filter((sensor: SensorData) => sensor.sensorId === sensorId);
+
+export const getSensorReadingsById = async (sensorId: string): Promise<Reading[]> => {
+  const response = await api.get("/readings/" + sensorId);
+  return response.data;
 };

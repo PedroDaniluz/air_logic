@@ -3,5 +3,5 @@ export type RootStackParamList = {
   Login: undefined;
   MainApp: undefined;
   Home: undefined;
-  History: { sensorId: number, sensorName: string };
+  History: { sensorId: string };
 };

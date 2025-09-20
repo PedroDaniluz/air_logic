@@ -1,5 +1,4 @@
 import { View, TouchableOpacity } from "react-native";
-import { getSensorDataById } from "../services/api";
 import { useEffect, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { Skeleton } from "moti/skeleton";
@@ -8,15 +7,15 @@ import { RootStackParamList } from "../types/navigation";
 import styled from "styled-components/native";
 import theme from "../styles/theme";
 import Gauge from "./Gauge";
+import { getSensorReadingsById } from "../services/api";
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'History'>;
 
 interface SensorCardProps {
-    title: string;
-    sensorId: number;
+    sensorId: string;
 }
 
-const SensorCard: React.FC<SensorCardProps> = ({ title, sensorId }) => {
+const SensorCard: React.FC<SensorCardProps> = ({ sensorId }) => {
     const navigation = useNavigation<NavigationProp>();
     const [sensorValue, setSensorValue] = useState<number | null>(null);
     const [isLoading, setIsLoading] = useState(true);
@@ -24,8 +23,8 @@ const SensorCard: React.FC<SensorCardProps> = ({ title, sensorId }) => {
     useEffect(() => {
         const fetchSensorData = async () => {
             try {
-                const data = await getSensorDataById(sensorId);
-                setSensorValue(data[data.length - 1].value);
+                const formattedData = await getSensorReadingsById(sensorId);
+                setSensorValue(formattedData[formattedData.length - 1].value);
             } catch (error) {
                 console.error("Erro ao buscar dados do sensor", error);
             } finally {
@@ -40,11 +39,11 @@ const SensorCard: React.FC<SensorCardProps> = ({ title, sensorId }) => {
         <Card>
             <CardHeader>
                 <View>
-                    <Title>{title}</Title>
+                    <Title>{sensorId}</Title>
                     <Subtitle>Pressão</Subtitle>
                 </View>
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("History", { sensorId, sensorName: title })}
+                    onPress={() => navigation.navigate("History", { sensorId })}
                 >
                     <History>Histórico</History>
                 </TouchableOpacity>

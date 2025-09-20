@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import { RouteProp, useRoute } from "@react-navigation/native";
 import { RootStackParamList } from "../types/navigation";
 import { View, Text, FlatList } from "react-native";
-import { getSensorDataById } from "../services/api";
+import { getSensorReadings, getSensorReadingsById } from "../services/api";
 import styled from "styled-components/native";
 import theme from "../styles/theme";
 import ChartCard from "../components/ChartCard";
 import { Skeleton } from "moti/skeleton";
+import { Reading } from "../types/readings";
 
 type HistoricoScreenRouteProp = RouteProp<RootStackParamList, "History">;
 
@@ -42,7 +43,7 @@ const agruparPorData = (dados: SensorData[]) => {
 
 const History = () => {
   const route = useRoute<HistoricoScreenRouteProp>();
-  const { sensorId, sensorName } = route.params;
+  const { sensorId } = route.params;
 
   const [sensorData, setSensorData] = useState<SensorData[]>([]);
 
@@ -51,7 +52,7 @@ const History = () => {
   useEffect(() => {
     const fetchSensorData = async () => {
       try {
-        const data = await getSensorDataById(sensorId);
+        const data = await getSensorReadingsById(sensorId);
         setSensorData(data);
       } catch (error) {
         console.error("Erro ao buscar dados do sensor", error);
@@ -68,7 +69,7 @@ const History = () => {
       <Header>Histórico</Header>
 
       <ChartCard
-        sensorName={sensorName}
+        sensorName={sensorId}
         sensorData={sensorData}
       />
 
@@ -96,7 +97,7 @@ const History = () => {
             <View>
               <DateHeader>{item.data}</DateHeader>
               {item.readings.map((reading) => (
-                <Reading key={reading.id}>
+                <ReadingComponent key={reading.id}>
                   <View style={{ flex: 1.2 }}>
                     <ReadingText>
                       • {new Date(reading.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false })}
@@ -112,7 +113,7 @@ const History = () => {
                       {reading.value > 3.6 ? 'HIGH' : reading.value < 3.0 ? 'LOW' : 'OK'}
                     </ReadingText>
                   </View>
-                </Reading>
+                </ReadingComponent>
               ))}
             </View>
           )}
@@ -161,7 +162,7 @@ const DateHeader = styled.Text`
   margin-bottom: 8px;
 `;
 
-const Reading = styled.View`
+const ReadingComponent = styled.View`
   flex-direction: row;
   margin: 4px 0;
   width: 100%;
