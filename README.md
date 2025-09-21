@@ -94,4 +94,4 @@ Após iniciar o app, você terá acesso às seguintes funcionalidades principais
   - Caso o app esteja conectado a sensores ativos, visualize as leituras em tempo real.
   - Os dados são atualizados automaticamente conforme novas medições são recebidas.
 
-> **Observação:** Os dados são fictícios e são recebidos do arquivo `sensors.json` localizado na pasta `mock`.
+> **Observação:** Os dados são fictícios e são recebidos do backend, que deve estar em execução local na porta 8080. Clique <a href="https://github.com/PedroDaniluz/airlogic-api">aqui</a> para ser redirecionado ao repositório com o backend.
