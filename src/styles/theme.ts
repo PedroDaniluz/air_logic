@@ -1,5 +1,6 @@
 export default {
   colors: {
+    red: '#FF0000',
     primaryBlue: '#003049',
     secundaryBlue: '#669BBC',
     background: '#fff',

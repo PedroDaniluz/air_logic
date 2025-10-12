@@ -44,7 +44,7 @@ const Home = () => {
 
 const Container = styled.View`
   flex: 1;
-  padding-top: 72px;
+  padding-top: 60px;
   background-color: ${theme.colors.background};
 `
 
@@ -64,8 +64,8 @@ const HeaderText = styled.Text`
 const HeaderLogo = styled.Image.attrs({
   resizeMode: 'contain',
 })`
-  width: 60px;
-  aspect-ratio: 1.9;
+  width: 48px;
+  height: 48px;
 `
 
 export default Home

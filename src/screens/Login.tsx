@@ -8,14 +8,37 @@ import InputField from '../components/InputField'
 import LoginButton from '../components/LoginButton'
 import { RootStackParamList } from '../types/navigation'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
+import { login } from '../services/api'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 type NavigationProps = NativeStackNavigationProp<RootStackParamList, 'MainApp'>
 
 const Login = () => {
-  const [email, setEmail] = useState('')
+  const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
+  const [errorMsg, setErrorMsg] = useState('')
 
   const navigation = useNavigation<NavigationProps>()
+
+  const handleLogin = async () => {
+    setErrorMsg('')
+    if (!username.trim() || !password.trim()) {
+      setErrorMsg('Preencha todos os campos')
+      return
+    }
+    try {
+      const loginResponse = await login(username, password)
+      if (loginResponse && loginResponse.token) {
+        await AsyncStorage.setItem('jwt', loginResponse.token)
+        await AsyncStorage.setItem('username', username)
+        navigation.navigate('MainApp')
+      } else {
+        setErrorMsg('Usuário ou senha inválidos')
+      }
+    } catch {
+      setErrorMsg('Usuário ou senha inválidos')
+    }
+  }
 
   return (
     <Container>
@@ -35,9 +58,9 @@ const Login = () => {
 
       <LoginForm>
         <InputField
-          placeholder="Insira seu email"
-          value={email}
-          onChangeText={setEmail}
+          placeholder="Insira seu nome de usuário"
+          value={username}
+          onChangeText={setUsername}
         />
         <InputField
           secureTextEntry
@@ -45,12 +68,9 @@ const Login = () => {
           value={password}
           onChangeText={setPassword}
         />
-        <StyledText>Esqueceu sua senha?</StyledText>
+        <ErrorText>{errorMsg}</ErrorText>
       </LoginForm>
-      <LoginButton
-        text="Login"
-        onClick={() => navigation.navigate('MainApp')}
-      />
+      <LoginButton text="Login" onClick={handleLogin} />
     </Container>
   )
 }
@@ -82,11 +102,10 @@ const LoginForm = styled.View`
   gap: 12px;
 `
 
-const StyledText = styled.Text`
-  font-family: ${theme.fonts.regular};
-  font-size: 14px;
-  color: #717171;
-  text-align: right;
+const ErrorText = styled.Text`
+  color: ${theme.colors.red};
+  font-size: 12px;
+  min-height: 18px;
 `
 
 export default Login

@@ -25,7 +25,7 @@ const Welcome = () => {
         />
         <LoginButton
           text="Criar conta"
-          onClick={() => navigation.navigate('Login')}
+          onClick={() => navigation.navigate('Register')}
           filled={false}
         />
       </ButtonContainer>

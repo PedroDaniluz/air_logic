@@ -5,6 +5,7 @@ import { Ionicons } from '@expo/vector-icons'
 import Home from '../screens/Home'
 import History from '../screens/History'
 import theme from '../styles/theme'
+import Profile from '../screens/Profile'
 
 const Tab = createBottomTabNavigator()
 const HomeStack = createNativeStackNavigator()
@@ -36,21 +37,14 @@ export default function TabRoutes() {
       }}
     >
       <Tab.Screen
-        name="Perfil"
-        listeners={{
-          tabPress: (e) => {
-            e.preventDefault()
-            Alert.alert('Perfil', 'Funcionalidade ainda não implementada.')
-          },
-        }}
+        name="Profile"
+        component={Profile}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="person-outline" size={size} color={color} />
           ),
         }}
-      >
-        {() => null}
-      </Tab.Screen>
+      />
       <Tab.Screen
         name="HomeTab"
         component={HomeWithHistoryStack}
