@@ -1,6 +1,6 @@
 export type Reading = {
-  id: number;
-  sensorId: string;
-  timestamp: string;
-  value: number;
-};
+  id: number
+  sensorId: string
+  timestamp: string
+  value: number
+}

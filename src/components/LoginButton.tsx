@@ -1,17 +1,17 @@
-import styled from 'styled-components/native';
-import { Pressable } from 'react-native';
-import theme from '../styles/theme';
+import styled from 'styled-components/native'
+import { Pressable } from 'react-native'
+import theme from '../styles/theme'
 
 interface LoginButtonProps {
-  filled?: boolean;
-  text: string;
-  onClick: () => void;
+  filled?: boolean
+  text: string
+  onClick: () => void
 }
 
 const LoginButton: React.FC<LoginButtonProps> = ({
   onClick,
   text,
-  filled = true
+  filled = true,
 }) => {
   return (
     <Pressable onPress={onClick}>
@@ -21,28 +21,26 @@ const LoginButton: React.FC<LoginButtonProps> = ({
         </StyledButton>
       )}
     </Pressable>
-  );
-};
+  )
+}
 
 const StyledButton = styled.View<{ filled: boolean; pressed: boolean }>`
   width: 100%;
-    background-color: ${({ filled, pressed }) =>
-      filled
-        ? pressed
-          ? 'black'
-          : theme.colors.primaryBlue
-        : 'transparent'};
-    border: ${({ filled }) => (filled ? 'none' : `2px solid ${theme.colors.primaryBlue}`)};
-    padding: 16px 0;
-    border-radius: 6px;
-    align-items: center;
-    opacity: ${({ pressed }) => (pressed ? 0.8 : 1)};
-`;
+  background-color: ${({ filled, pressed }) =>
+    filled ? (pressed ? 'black' : theme.colors.primaryBlue) : 'transparent'};
+  border: ${({ filled }) =>
+    filled ? 'none' : `2px solid ${theme.colors.primaryBlue}`};
+  padding: 16px 0;
+  border-radius: 6px;
+  align-items: center;
+  opacity: ${({ pressed }) => (pressed ? 0.8 : 1)};
+`
 
 const ButtonText = styled.Text<{ filled: boolean }>`
-  color: ${({ filled }) => (filled ? theme.colors.background : theme.colors.primaryBlue)};
+  color: ${({ filled }) =>
+    filled ? theme.colors.background : theme.colors.primaryBlue};
   font-family: ${theme.fonts.bold};
   font-size: 14px;
-`;
+`
 
-export default LoginButton;
+export default LoginButton
